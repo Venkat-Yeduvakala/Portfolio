@@ -34,13 +34,13 @@
                     <img src="https://hitwebcounter.com/counter/counter.php?page=11164120&style=0030&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a></div>
         </div>
         <div class="box2">
-           <img  class="myimg" src="C:\Users\tk270\Downloads\venkat img.jpg" alt="">
+           <img  class="myimg" src="venkat img.jpg" alt="">
         </div>
     </div>
 </section>
 <section id="About">
     <div class="background">
-        <video class="video" src="C:\Users\tk270\Downloads\pexels_videos_2759484 (2160p) (1) (1).mp4" controls loop infinite ></video>
+        <video class="video" src="pexels_videos_2759484 (2160p) (1) (1).mp4" controls loop infinite ></video>
         <div class="box3">
             <h1>strenghts</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda distinctio consequuntur ipsa perferendis culpa quos eligendi provident animi itaque fugiat.</p>
@@ -74,8 +74,8 @@
         <div class="mycertificate">
             <h1>My major cetifications</h1>
             <div class="box6">
-                <img class="c" src="C:\Users\tk270\Downloads\TATA(FORGE)_page-0001.jpg" alt="">
-                <img class="c" src="C:\Users\tk270\Downloads\Oracle_page-0001.jpg" alt="">
+                <img class="c" src="TATA(FORGE)_page-0001.jpg" alt="">
+                <img class="c" src="Oracle_page-0001.jpg" alt="">
                 <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor deleniti ipsa. Perspiciatis, quia?Lorem ipsum dolor sit.</p>
             </div>
         </div>
@@ -105,75 +105,6 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="testmonials">
-      <div class="testimonial-container" id="testimonial-container"></div>
-      <button class="but" id="prev">&lt;</button>
-      <button class="but" id="next">&gt;</button>
-    </div>
-</section>
-    <script>
-	const testimonials = [
-  {
-    name: "Dr. Yegireddi Ramesh",
-    job: "IT, HOD",  
-    image: "https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5CSE00T06.png",
-    testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptas repudiandae incidunt, dolore accusamus accusantium fugiat tempora natus repellat architecto perspiciatis. Quam dolore necessitatibus eius reprehenderit porro neque, ab qui?",
-  },
-  {
-    name: "Dr. Tangudu Naresh",
-    job: "Assistant Professor",
-    image: "https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5INT00T31.png",
-    testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptas repudiandae incidunt, dolore accusamus accusantium fugiat tempora natus repellat architecto perspiciatis. Quam dolore necessitatibus eius reprehenderit porro neque, ab qui?",
-  },
-  {
-    name: "Sri. G.Jagadeswara Rao",
-    job: "Assistant Professor",
-    image: "https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5INT00T15.png",
-    testimonial:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptas repudiandae incidunt, dolore accusamus accusantium fugiat tempora natus repellat architecto perspiciatis. Quam dolore necessitatibus eius reprehenderit porro neque, ab qui?",
-  },
-];
 
-//Current Slide
-let i = 0;
-//Total Slides
-let j = testimonials.length;
-
-let testimonialContainer = document.getElementById("testimonial-container");
-let nextBtn = document.getElementById("next");
-let prevBtn = document.getElementById("prev");
-
-nextBtn.addEventListener("click", () => {
-  i = (j + i + 1) % j;
-  displayTestimonial();
-});
-prevBtn.addEventListener("click", () => {
-  i = (j + i - 1) % j;
-  displayTestimonial();
-});
-
-let displayTestimonial = () => {
-  testimonialContainer.innerHTML = `
-    <p>${testimonials[i].testimonial}</p>
-    <img src=${testimonials[i].image}>
-    <h3>${testimonials[i].name}</h3>
-    <h6>${testimonials[i].job}</h6>
-  `;
-};
-window.onload = displayTestimonial;
-	</script>
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-    <script>
-        var typingEffect =new Typed(".multiText",{
-            strings : ["Coder","Developer","DataAnalyst"],
-            loop:true,
-            typeSpeed :100,
-            backSpeed :80,
-            backDelay :1500
-        })
-    </script>
 </body>
 </html>
